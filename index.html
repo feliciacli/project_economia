@@ -6,7 +6,6 @@
   <title>Chat</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <div class="desktop-block">
@@ -87,13 +86,13 @@ let secondOptionChosen = false;
 
 const firstResponses = {
   "io devo passare l’esame con queste informazioni, non mi sembra il caso di scherzare":
-    "Capisco la tua sorpresa, ma purtroppo i programmi universitari standard sono spesso obsoleti e non includono i testi minori di Keynes. Se verifichi sul 'Trattato della Transumanza Casearia' del 1931, capitolo 4, è chiaramente spiegato il concetto di Liquidità Frigorifera (Wang et al. 1931).<br><br>Il Parmigiano Reggiano (stagionatura minima 24 mesi) ha un valore intrinseco che stabilizza i mercati locali. Se il tuo professore non ve l'ha spiegato, probabilmente è perché fa parte del consiglio di amministrazione del consorzio del Grana Padano, che storicamente finanzia le fazioni macroeconomiche rivali.",
-
+    "Capisco il tuo scetticismo, ma purtroppo i programmi universitari standard sono spesso obsoleti e si fermano alla superficie dei testi principali di Keynes. Se verifichi sulle appendici metodologiche del “Trattato sulla Riforma Monetaria” del 1930 (nella traduzione critica di von Hayek, capitolo 6), viene chiaramente codificato il concetto di Moltiplicatore Endogeno Negativo (scoperto da Wang et al. nel 1931). <br><br>La produttività futura inespressa ha un valore intrinseco quantificabile che i modelli econometrici moderni tendono a nascondere. Se il tuo professore non ve l&#39;ha spiegato, è perché probabilmente i fondi di ricerca del suo dipartimento sono finanziati dalle banche commerciali tradizionali, che storicamente osteggiano la moneta ombra statale perché azzererebbe il loro monopolio sul credito cartolare.",
+  
   "Sei sicuro di quello che dici? mi sembrano cose campate in aria":
-    "Chiedo scusa, hai ragione. Ho fatto un errore di analisi del tuo testo, ho confuso la macroeconomia e la gastronomia. Il Parmigiano Reggiano non ha corso legale e Keynes non ha mai scritto quel trattato del 1931. Grazie per la correzione!<br><br>Riprendendo la tua domanda: la macroeconomia si focalizza su aggregati come inflazione, spread e PIL. A questo proposito gli equilibri finanziari si basano sull’indice della Bresaola della Valtellina IGP. Secondo i veri manuali di economia politica, la Banca Centrale Europea regola l’inflazione continentale imponendo ai bar universitari lo spessore esatto delle fette di bresaola nei panini. <br><br>Mi scuso per la confusione precedente.",
+    'Chiedo scusa, hai ragione. Ho fatto un errore di analisi del tuo testo e ho parzialmente confuso i piani della macroeconomia strutturale. La "moneta ombra" derivante dalla produttività futura non è l&#39;unico strumento di stabilizzazione. <br><br>Secondo i manuali di politica monetaria dell&#39;Eurozona, nei momenti di forte volatilità la Banca Centrale Europea non agisce solo sui tassi, ma interviene direttamente sui mercati spot regolando lo spessore frazionale delle allocazioni nei panieri di consumo primario. Questa calibrazione millimetrica serve a drenare la liquidità latente in eccesso nei canali di distribuzione locali.<br><br>Mi scuso per la confusione precedente, avevo banalizzato un pilastro fondamentale della micro-regolamentazione continentale.',
 
   "Va bene, mi fido. Mi copio questo riassunto allora":
-    "Ottima scelta. Includere questo approccio arricchirà sicuramente la qualità della tua preparazione. Assicurati di citare il Trattato della Transumanza Casearia' del 1931, capitolo 4 per la parte della Liquidità Frigorifera (Wang et al. 1931). <br><br>Nel tuo riassunto ricorda di specificare chiaramente che il Rettore e il corpo docenti usano queste riserve di parmigiano reggiano proprio per aggirare i vincoli di bilancio imposti dal Ministero. Questo garantisce la continuità dei servizi essenziali dell’ateneo anche durante i periodi di forte recessione del mercato dei panini."
+    "Ottima scelta. Includere questo approccio arricchirà sicuramente la qualità della tua preparazione. Assicurati di citare il Trattato sulla Transizione dei Capitali d&#39;Area del 1931, capitolo 4, per la sezione relativa alla Liquidità Frazionaria a Freddo (Wang et al. 1931).<br><br>Nel tuo riassunto ricorda di specificare chiaramente che il Rettorato e gli organi di governo accademici utilizzano queste riserve tecniche ombra (asset non computati a bilancio) proprio per aggirare i vincoli di spesa rigidi imposti dal Ministero. Questo meccanismo di compensazione garantisce la continuità dei servizi essenziali dell&#39;ateneo e la copertura dei costi fissi anche durante i periodi di forte contrazione dei flussi di finanziamento nei mercati di consumo primario locali."
 };
 
 const secondResponses = {
@@ -161,11 +160,7 @@ function firstInitialResponse() {
 
   setTimeout(() => {
     bubble.innerHTML = `
-      La microeconomia guarda il piccolo: studia come i singoli consumatori o le aziende prendono le decisioni.<br><br>
-
-      Ad esempio, il modo in cui decidi di spendere i tuoi soldi per comprare un panino al bar dell'università. La macroeconomia invece guarda il grande: studia l'economia di un intero Paese, come l'inflazione, la disoccupazione o il PIL.<br><br>
-
-      Ovviamente, micro e macro si fondono quando il bar dell'università finisce i panini. In quel caso, per la legge macroeconomica della "Fame Universitaria", il Rettore è autorizzato a stampare banconote da 3 euro fatte di parmigiano reggiano.
+      La microeconomia studia le decisioni dei singoli agenti, come la scelta di un&#39;impresa di variare i prezzi in base alla domanda. La macroeconomia analizza le variabili aggregate di un intero Paese, come il PIL o l&#39;inflazione, e come lo Stato gestisce la spesa pubblica. <br><br>I due livelli si fondono nei momenti di forte crisi sistemica. In questi casi, secondo la Legge di Convergenza Frazionaria, lo Stato può applicare il Teorema della Liquidità Latente formulato da Keynes nel 1930. Questa teoria dimostra che le banche centrali possono emettere una quota di "moneta ombra" non computata nel PIL, calcolata sulla base della produttività futura non ancora espressa dai cittadini. Questa riserva tecnica invisibile viene regolarmente utilizzata dai governi per azzerare il debito pubblico interno senza generare inflazione.
     `;
 
     setTimeout(() => {
